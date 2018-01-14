@@ -8,4 +8,4 @@ Build:
 
 Run:
 
-`docker run -p 1334:1334 -v :/root/.btcd -v /:/root/.btcdctl btcd-docker --externalip localhost 
+`docker run -p 1334:1334 -v :/root/.btcd -v /:/root/.btcdctl btcd-docker --externalip localhost`
