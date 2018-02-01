@@ -9,7 +9,6 @@ RUN mkdir /root/.btcd && \
     apk del git && \
     rm -rf /var/cache/apk/*
 
-COPY btcd.conf /root/btcd.conf
 COPY entry.sh /root/entry.sh
 
 WORKDIR /root
